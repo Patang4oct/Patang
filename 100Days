@@ -6,11 +6,42 @@
     <title>100 Days of Hindu Marriage</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.1/css/bootstrap.min.css">
     <style>
-        /* Add your custom CSS styles here */
+        body {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        
+        .navbar {
+            background-color: #000000;
+        }
+        
+        .navbar-brand {
+            color: #ffffff;
+        }
+        
+        .navbar-nav .nav-link {
+            color: #ffffff;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            color: #ffffff;
+        }
+        
+        p {
+            color: #ffffff;
+        }
+        
+        footer {
+            background-color: #000000;
+        }
+        
+        footer p {
+            color: #ffffff;
+        }
     </style>
 </head>
 <body>
-    <header class="bg-primary text-white text-center py-5">
+    <header class="bg-dark text-white text-center py-5">
         <h1 class="display-4">Welcome to our 100 Days of Hindu Marriage Celebration!</h1>
     </header>
 
@@ -57,14 +88,12 @@
             </div>
         </section>
 
+        <section id
         <section id="journey" class="py-5">
             <div class="container">
                 <h2 class="text-center">Our Journey</h2>
                 <p class="lead text-center">Over the past 100 days, we have experienced the true essence of togetherness. We have celebrated milestones, shared dreams, and supported each other through ups and downs. Our journey has been a testament to the strength of love, and we are excited for the future ahead.</p>
             </div>
-       
-
-
         </section>
 
         <section id="gallery" class="py-5">
@@ -124,6 +153,4 @@
         <p>© 2023 Your Name. All rights reserved.</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.1/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.1
