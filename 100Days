@@ -3,60 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>100 Days of Togetherness</title>
+    <title>100 Days of Hindu Marriage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.1/css/bootstrap.min.css">
     <style>
         /* Add your custom CSS styles here */
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to our 100 Days of Hindu Marriage Celebration!</h1>
+    <header class="bg-primary text-white text-center py-5">
+        <h1 class="display-4">Welcome to our 100 Days of Hindu Marriage Celebration!</h1>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#journey">Our Journey</a></li>
-            <li><a href="#gallery">Photo Gallery</a></li>
-            <li><a href="#quotes">Quotes</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">100 Days of Marriage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#journey">Our Journey</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Photo Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quotes">Quotes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
     <main>
-        <section id="home">
-            <h2>Home Section</h2>
-            <p>Thank you for visiting our website dedicated to celebrating 100 days of our Hindu marriage. We are delighted to share our joy and love with you!</p>
+        <section id="home" class="py-5">
+            <div class="container">
+                <h2 class="text-center">Home Section</h2>
+                <p class="lead text-center">Thank you for visiting our website dedicated to celebrating 100 days of our Hindu marriage. We are delighted to share our joy and love with you!</p>
+            </div>
         </section>
 
-        <section id="about">
-            <h2>About Us</h2>
-            <p>We are [Your Names], and on [Marriage Date], we embarked on this beautiful journey of marriage. Our love story is filled with laughter, understanding, and the blessings of our families. We are grateful for every moment we have spent together.</p>
+        <section id="about" class="py-5">
+            <div class="container">
+                <h2 class="text-center">About Us</h2>
+                <p class="lead text-center">We are [Your Names], and on [Marriage Date], we embarked on this beautiful journey of marriage. Our love story is filled with laughter, understanding, and the blessings of our families. We are grateful for every moment we have spent together.</p>
+            </div>
         </section>
 
-        <section id="journey">
-            <h2>Our Journey</h2>
-            <p>Over the past 100 days, we have experienced the true essence of togetherness. We have celebrated milestones, shared dreams, and supported each other through ups and downs. Our journey has been a testament to the strength of love, and we are excited for the future ahead.</p>
+        <section id="journey" class="py-5">
+            <div class="container">
+                <h2 class="text-center">Our Journey</h2>
+                <p class="lead text-center">Over the past 100 days, we have experienced the true essence of togetherness. We have celebrated milestones, shared dreams, and supported each other through ups and downs. Our journey has been a testament to the strength of love, and we are excited for the future ahead.</p>
+            </div>
+       
+
+
         </section>
 
-        <section id="gallery">
-            <h2>Photo Gallery</h2>
-            <p>Take a glimpse into our beautiful memories. Here are a few moments we would love to share with you:</p>
-            <ul>
-                <li>Image 1: <img src="professional_image1.jpg" alt="Image 1"></li>
-                <li>Image 2: <img src="professional_image2.jpg" alt="Image 2"></li>
-                <li>Image 3: <img src="professional_image3.jpg" alt="Image 3"></li>
-                <!-- Add more image placeholders as needed -->
-            </ul>
+        <section id="gallery" class="py-5">
+            <div class="container">
+                <h2 class="text-center">Photo Gallery</h2>
+                <p class="lead text-center">Take a glimpse into our beautiful memories. Here are a few moments we would love to share with you:</p>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <img src="professional_image1.jpg" class="img-fluid" alt="Image 1">
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <img src="professional_image2.jpg" class="img-fluid" alt="Image 2">
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <img src="professional_image3.jpg" class="img-fluid" alt="Image 3">
+                    </div>
+                    <!-- Add more image placeholders as needed -->
+                </div>
+            </div>
         </section>
 
-        <section id="quotes">
-            <h2>Quotes</h2>
-            <p>Love is the foundation of our marriage, and we find inspiration in these quotes:</p>
-            <ul>
-                <li>"Love is not about how many days, months, or years we have been together. It's all about how much we love each other every day." - Unknown</li>
-                <li>"In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine." - Maya Angelou</li>
-                <li>"A successful marriage requires falling in love many times, always with the same person." - Mignon McLaughlin</li>
-                <li>"The best thing to hold onto in life is each other." - Audrey Hepburn</li>
-            </ul>
-        </section
+        <section id="quotes" class="py-5">
+            <div class="container">
+                <h2 class="text-center">Quotes</h2>
+                <p class="lead text-center">Love is the foundation of our marriage, and we find inspiration in these quotes:</p>
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                        <ul class="list-unstyled">
+                            <li class="mb-4">
+                                <blockquote class="blockquote text-center">
+                                    <p class="mb-0">"Love is not about how many days, months, or years we have been together. It's all about how much we love each other every day." - Unknown</p>
+                                </blockquote>
+                            </li>
+                            <li class="mb-4">
+                                <blockquote class="blockquote text-center">
+                                    <p class="mb-0">"In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine." - Maya Angelou</p>
+                                </blockquote>
+                            </li>
+                            <li class="mb-4">
+                                <blockquote class="blockquote text-center">
+                                    <p class="mb-0">"A successful marriage requires falling in love many times, always with the same person." - Mignon McLaughlin</p>
+                                </blockquote>
+                            </li>
+                            <li>
+                                <blockquote class="blockquote text-center">
+                                    <p class="mb-0">"The best thing to hold onto in life is each other." - Audrey Hepburn</p>
+                                </blockquote>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2023 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
