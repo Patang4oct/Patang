@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100 Days of Hindu Marriage</title>
+    <style>
+        /* Add your custom CSS styles here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our 100 Days of Hindu Marriage Celebration!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#journey">Our Journey</a></li>
+            <li><a href="#gallery">Photo Gallery</a></li>
+            <li><a href="#quotes">Quotes</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>Replace this text with a warm welcome message to your website visitors.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Introduce yourselves and share a brief story about your marriage journey.</p>
+        </section>
+
+        <section id="journey">
+            <h2>Our Journey</h2>
+            <p>Share the highlights, challenges, and memorable moments of your 100-day Hindu marriage.</p>
+        </section>
+
+        <section id="gallery">
+            <h2>Photo Gallery</h2>
+            <p>Upload and showcase your favorite photos capturing the beautiful moments of your marriage. To add your own images, replace the following placeholders with your image URLs:</p>
+            <ul>
+                <li>Image 1: <img src="placeholder1.jpg" alt="Placeholder Image 1"></li>
+                <li>Image 2: <img src="placeholder2.jpg" alt="Placeholder Image 2"></li>
+                <li>Image 3: <img src="placeholder3.jpg" alt="Placeholder Image 3"></li>
+                <!-- Add more image placeholders as needed -->
+            </ul>
+        </section>
+
+        <section id="quotes">
+            <h2>Quotes</h2>
+            <p>Add beautiful quotes about love, marriage, and your journey together. Replace the following placeholder quotes with your own:</p>
+            <ul>
+                <li>"Our love is a journey that grows stronger with every passing day. Happy 100 days of togetherness!"</li>
+                <li>"To my beloved wife, on our 100th day of marriage: you have brought immense joy, love, and blessings into my life. Here's to a hundred more years together!"</li>
+                <li>"As we celebrate 100 days of wedded bliss, I am grateful for every moment we've shared, and I look forward to the beautiful journey ahead."</li>
+                <li>"Today, we celebrate the completion of our first hundred days together, but our love story is just beginning. Happy 100 days, my love!"</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
